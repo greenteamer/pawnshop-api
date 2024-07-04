@@ -1,0 +1,20 @@
+{
+  "name": "pawnshop-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "res:build": "rescript",
+    "res:dev": "rescript -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rescript/core": "^1.5.2",
+    "express": "^4.19.2",
+    "rescript": "^11.1.2",
+    "rescript-nodejs": "^16.1.0"
+  }
+}
