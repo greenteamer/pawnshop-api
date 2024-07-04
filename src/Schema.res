@@ -1,1 +1,0 @@
-type data = string
